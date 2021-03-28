@@ -1,0 +1,4 @@
+python run_classification.py --data_dir  C:\Users\lucki\WORK\OFFICE\VAST\Projects\Invoice\Document-Classificaton\NLP\data\layoutlm-format --model_type layoutlm --model_name_or_path C:\Users\lucki\WORK\OFFICE\VAST\Projects\Invoice\Document-Classificaton\NLP\Pretrained\layoutlM --output_dir output --do_lower_case --max_seq_length 2048 --do_train --do_eval --num_train_epochs 100.0 --logging_steps 5000 --save_steps 5000 --per_gpu_train_batch_size 16 --per_gpu_eval_batch_size 16 --evaluate_during_training --fp16
+
+
+python run_classification.py --data_dir sample_data --model_type layoutlm --model_name_or_path layoutlM-model --output_dir output --do_lower_case --max_seq_length 2048 --do_train --do_eval --num_train_epochs 100.0 --logging_steps 5000 --save_steps 5000 --per_gpu_train_batch_size 16 --per_gpu_eval_batch_size 16 --evaluate_during_training --fp16 --task_name cdip
